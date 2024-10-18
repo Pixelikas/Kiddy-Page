@@ -1,0 +1,103 @@
+html{
+
+    height: 100%;
+
+}
+
+
+body{
+
+    height: 100%;
+    background-color: rebeccapurple;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color: gold;
+
+}
+
+#topo{
+
+    height: 10%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+
+}
+
+    #topo-esquerda{
+
+        height: 100%;
+        width: 15%;
+        background-color: #FFFFFF;
+
+    }
+
+    #topo-meio{
+
+        height: 100%;
+        width: 70%;
+        background-color: aqua;
+
+    }
+
+    #topo-direita{
+
+        height: 100%;
+        width: 15%;
+        background-color: #FFFFFF;
+
+    }
+
+
+#meio{
+
+    height: 80%;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+
+}
+
+    #meio-esquerda{
+
+        height: 100%;
+        width: 50%;
+        background-color: brown;
+
+    }    
+
+    #meio-direita{
+
+        height: 100%;
+        width: 50%;
+        background-color: #EFEFEF;
+
+    } 
+
+
+
+#baixo{
+
+    height: 10%;
+    width: 100%;
+    background-color: #69BDC4;
+
+}
+
+#logo{
+
+    height: 90%;
+
+}
+
+#bicho{
+
+    height: 90%;
+
+}
+
