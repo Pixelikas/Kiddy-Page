@@ -22,7 +22,7 @@ body{
 
 #topo{
 
-    height: 10%;
+    height: 13%;
     width: 100%;
     background-color: cadetblue;
     display: flex;
@@ -34,29 +34,38 @@ body{
         height: 100%;
         width: 15%;
         background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
     #topo-meio{
 
         height: 100%;
-        width: 70%;
-        background-color: aqua;
+        width: 60%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
     #topo-direita{
 
         height: 100%;
-        width: 15%;
+        width: 25%;
         background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
 
 #meio{
 
-    height: 80%;
+    height: 77%;
     width: 100%;
     background-color: coral;
     display: flex;
@@ -75,7 +84,10 @@ body{
 
         height: 100%;
         width: 50%;
-        background-color: #EFEFEF;
+        background-color: #F8F9F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     } 
 
@@ -91,7 +103,7 @@ body{
 
 #logo{
 
-    height: 90%;
+    height: 55%;
 
 }
 
@@ -101,3 +113,23 @@ body{
 
 }
 
+.lblsTopo{
+
+    margin: 15px;
+    font-size: 15px;
+    color: gray;
+    font-family: Arial;
+
+}
+
+#btnFind{
+
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: solid 2px #69BDC4;
+    border-radius: 25px;
+    color:#69BDC4;
+    font-size: 15px;
+
+}
