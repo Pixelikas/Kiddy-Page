@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Happy Camper Regular';
+    src: url(Happy-Camper-Regular.ttf);
+}
+
+
 html{
 
     height: 100%;
@@ -76,7 +82,11 @@ body{
 
         height: 100%;
         width: 50%;
-        background-color: brown;
+        background-color: #F8F9F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
     }    
 
@@ -131,5 +141,13 @@ body{
     border-radius: 25px;
     color:#69BDC4;
     font-size: 15px;
+
+}
+
+#title{
+
+    font-family: 'Happy Camper Regular';
+    color: #69BDC4;
+    font-size: 75px;
 
 }
