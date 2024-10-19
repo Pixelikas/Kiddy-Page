@@ -2,4 +2,4 @@
 Kiddy Page (Clone) made using HTML and CSS.<br><br>
 (Work in Progress)<br><br>
 
-![print-Kiddy](https://github.com/user-attachments/assets/f0b5b087-9d04-4aad-a31d-2724a6888452)
+![print-Kiddy](https://github.com/user-attachments/assets/859eda47-c319-49c3-bd69-5ef8e4d99392)
