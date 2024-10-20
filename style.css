@@ -108,6 +108,9 @@ body{
     height: 10%;
     width: 100%;
     background-color: #69BDC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -165,7 +168,7 @@ body{
 
     font-family: 'Happy Camper Regular';
     color: #69BDC4;
-    font-size: 75px;
+    font-size: 65px;
     letter-spacing: 3px;
 
 }
@@ -198,7 +201,7 @@ body{
 
 #btnMain{
 
-    height: 50px;
+    height: 45px;
     width: 220px;
     background-color: #ED678E;
     border: solid 0px;
@@ -214,5 +217,12 @@ body{
 
     background-color: #DE4082;
     transition: 0.50s;
+
+}
+
+.icons{
+
+    width: 3%;
+    margin: 0px 10px 0px 10px;
 
 }
