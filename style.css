@@ -132,6 +132,14 @@ body{
 
 }
 
+.lblsTopo:hover{
+
+    cursor: pointer;
+    color:#69BDC4;
+    transition: 0.50s;
+
+}
+
 #btnFind{
 
     height: 50px;
@@ -142,6 +150,14 @@ body{
     color:#69BDC4;
     font-size: 15px;
     cursor: pointer;
+
+}
+
+#btnFind:hover{
+
+    background-color: #69BDC4;
+    color:#FFFFFF;
+    transition: 0.50s;
 
 }
 
@@ -182,14 +198,21 @@ body{
 
 #btnMain{
 
-    height: 45px;
+    height: 50px;
     width: 220px;
     background-color: #ED678E;
-    border: solid 2px #ED678E;
+    border: solid 0px;
     border-radius: 25px;
     color:#FFFFFF;
     font-size: 15px;
     margin: 10px 0px 10px 0px;
     cursor: pointer;
+
+}
+
+#btnMain:hover{
+
+    background-color: #DE4082;
+    transition: 0.50s;
 
 }
