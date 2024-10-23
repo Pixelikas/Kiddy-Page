@@ -1,6 +1,8 @@
 @font-face {
+
     font-family: 'Happy Camper Regular';
     src: url(Happy-Camper-Regular.ttf);
+
 }
 
 
@@ -14,105 +16,100 @@ html{
 body{
 
     height: 100%;
-    background-color: rebeccapurple;
     margin: 0;
 
 }
 
-#container{
-
-    height: 100%;
-    background-color: gold;
-
-}
-
-#topo{
-
-    height: 13%;
-    width: 100%;
-    background-color: cadetblue;
-    display: flex;
-
-}
-
-    #topo-esquerda{
+    #container{
 
         height: 100%;
-        width: 15%;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
     }
 
-    #topo-meio{
+        #topo{
 
-        height: 100%;
-        width: 60%;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+            height: 13%;
+            width: 100%;
+            display: flex;
 
-    }
+        }
 
-    #topo-direita{
+            #topo-esquerda{
 
-        height: 100%;
-        width: 25%;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+                height: 100%;
+                width: 15%;
+                background-color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-    }
+            }
 
+            #topo-meio{
 
-#meio{
+                height: 100%;
+                width: 60%;
+                background-color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-    height: 77%;
-    width: 100%;
-    background-color: coral;
-    display: flex;
+            }
 
-}
+            #topo-direita{
 
-    #meio-esquerda{
+                height: 100%;
+                width: 25%;
+                background-color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-        height: 100%;
-        width: 50%;
-        background-color: #F8F9F9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }    
-
-    #meio-direita{
-
-        height: 100%;
-        width: 50%;
-        background-color: #F8F9F9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    } 
+            }
 
 
+        #meio{
 
-#baixo{
+            height: 77%;
+            width: 100%;
+            display: flex;
 
-    height: 10%;
-    width: 100%;
-    background-color: #69BDC4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        }
 
-}
+            #meio-esquerda{
+
+                height: 100%;
+                width: 50%;
+                background-color: #F8F9F9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+            }    
+
+            #meio-direita{
+
+                height: 100%;
+                width: 50%;
+                background-color: #F8F9F9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            } 
+
+
+        #baixo{
+
+            height: 10%;
+            width: 100%;
+            background-color: #69BDC4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
 
 #logo{
 
@@ -156,13 +153,13 @@ body{
 
 }
 
-#btnFind:hover{
+    #btnFind:hover{
 
-    background-color: #69BDC4;
-    color:#FFFFFF;
-    transition: 0.50s;
+        background-color: #69BDC4;
+        color:#FFFFFF;
+        transition: 0.50s;
 
-}
+    }
 
 #title{
 
@@ -178,7 +175,7 @@ body{
     margin: 15px;
     font-size: 12px;
     font-weight: bolder;
-    color: rgb(146, 146, 146);
+    color: #929292;
     font-family: Arial;
     margin: 20px 160px 20px 160px;
     line-height: 25px;
@@ -192,7 +189,7 @@ body{
     background-color: #FFFFFF;
     border: solid 2px #69BDC4;
     border-radius: 25px;
-    color:#000000;
+    color:#1C1C1C;
     font-size: 15px;
     margin: 5px 0px 5px 0px;
     padding-left: 20px;
@@ -213,16 +210,17 @@ body{
 
 }
 
-#btnMain:hover{
+    #btnMain:hover{
 
-    background-color: #DE4082;
-    transition: 0.50s;
+        background-color: #DE4082;
+        transition: 0.50s;
 
-}
+    }
 
 .icons{
 
     width: 3%;
     margin: 0px 10px 0px 10px;
+    cursor: pointer;
 
 }
